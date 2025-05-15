@@ -45,4 +45,4 @@ def page_malaria_detector_body():
         if not df_report.empty:
             st.success("Analysis Report")
             st.table(df_report)
-            st.markdown(download_dataframe_as_csv(df_report), unsafe_allow_html=True)
+            st.markdown(download_dataframe_as_csv(df_report, "malaria_report.csv"), unsafe_allow_html=True)
