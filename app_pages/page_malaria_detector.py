@@ -3,13 +3,12 @@ from PIL import Image
 import numpy as np
 import pandas as pd
 
-from src.data_management import download_dataframe_as_csv
-from src.machine_learning.predictive_analysis import (
-                                                    load_model_and_predict,
-                                                    resize_input_image,
-                                                    plot_predictions_probabilities
-                                                    )
-
+from src.data_management import download_dataframe_as_csv 
+from src.machine_learning.predictive_analysis import (plot_predictions_probabilities,
+                                                      resize_input_image,
+                                                      load_model_and_predict
+                                                      )
+                                                     
 def page_malaria_detector_body():
     st.info(
         f"* The client is interested in telling whether a given cell contains a malaria parasite "
