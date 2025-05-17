@@ -1,6 +1,10 @@
 ## Dataset Content
 The dataset contains 5643 images taken from a blood smear workflow (where a drop of blood is placed on a glass slide). The cells are parasitized or uninfected with malaria.
 
+### Deployment
+Can be viewed here:
+https://malaria-detection-rw0l.onrender.com/
+
 
 ## Business Requirements
 As a Data Analyst from Code Institute Consulting, you are requested by the Health Care division to provide actionable insights and data-driven recommendations to a Global Hospital Institution. The client is currently facing challenges in disease detection, especially with malaria.
